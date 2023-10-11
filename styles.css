@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    z-index: -1;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+}
+
+.entity-speech {
+    font-size: 24px;
+}
+
+.additional-text {
+    font-size: 18px;
+    opacity: 0.8;
+    transition: opacity 1s ease;
+}
+
+canvas {
+    display: block;
+}
