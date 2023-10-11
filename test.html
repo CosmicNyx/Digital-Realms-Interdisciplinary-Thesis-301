@@ -11,14 +11,13 @@
 <body>
     <div class="background"></div>
     <div class="container">
-        <div id="entitySpeech" class="entity-speech"></div>
-        <div id="additionalText" class="additional-text"></div>
-        <div id="otherText" class="other-text"></div>
-        <div id="errorText" class="error-text"></div>
-        <div id="images-container"></div>
+        <div class="entity-speech" id="entitySpeech"></div>
+        <div class="additional-text" id="additionalText"></div>
+        <div class="other-text" id="otherText"></div>
     </div>
-    <script type="module" src="script.js"></script>
-
+    <!-- Link both JavaScript files directly in the HTML -->
+    <script src="textData.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -5,4 +5,3 @@ const textData = {
     // Add more text data as needed
 };
 
-export default textData;
