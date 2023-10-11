@@ -65,10 +65,11 @@ function drawImage(image) {
 }
 
 
-// //DRAWING IMAGES
-// window.onload = () => {
-//     typeEntitySpeech();
 
+window.onload = () => {
+    typeEntitySpeech();
+    
+// //DRAWING IMAGES
 //     const images = [
 //         'image1_bw.jpg',
 //         'image2_bw.jpg',
@@ -84,4 +85,4 @@ function drawImage(image) {
 //         .catch((error) => {
 //             console.error(error);
 //         });
-// };
+};
