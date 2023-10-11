@@ -1,88 +1,51 @@
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
+// Define the text data to be displayed
+const textData = {
+    'greeting': "Hello, I am the talking entity.",
+    'additionalText': "This is additional text that appears later.",
+    'otherText': "This is another kind of text."
+    // Add more text data as needed
+};
 
+// Function to simulate the typewriter effect for a given text and element
+function typeWriter(element, text, delay = 50, index = 0) {
+    if (index < text.length) {
+        // Append one character at a time to the target element
+        element.textContent += text.charAt(index);
+        index++;
+        // Call the function recursively with a delay to type the next character
+        setTimeout(() => typeWriter(element, text, delay, index), delay);
+    }
+}
+
+// Function to display text with a typewriter effect after a specified delay
+function displayText(element, text, delay) {
+    // Set a timeout to start the typewriter effect after the specified delay
+    setTimeout(() => typeWriter(element, text), delay);
+}
+
+/* Commented out image-related code
+// Function to draw images on the page and control their position
+function drawImage(src, x, y) {
+    const img = new Image();
+    img.src = src;
+    img.style.position = 'absolute';
+    img.style.top = y + 'px';
+    img.style.left = x + 'px';
+    document.getElementById('images-container').appendChild(img);
+}
+
+// Draw images with specified positions
+drawImage('image1.jpg', 100, 200);
+drawImage('image2.jpg', 300, 400);
+// Add more images as needed with their respective positions
+*/
+
+// Get the HTML elements by their IDs
 const entitySpeechElement = document.getElementById('entitySpeech');
 const additionalTextElement = document.getElementById('additionalText');
+const otherTextElement = document.getElementById('otherText');
 
-const entitySpeech = "Hello, I am the talking entity. ";
-const additionalText = "This is additional text that appears later.";
-
-let charIndex = 0;
-
-function setPosition(x, y) {
-    entitySpeechElement.style.position = 'absolute';
-    entitySpeechElement.style.top = y + 'px';
-    entitySpeechElement.style.left = x + 'px';
-}
-
-function typeEntitySpeech() {
-    // Set the desired position of the text
-    setPosition(200, 200); // Example position: X=200, Y=200
-
-    if (charIndex < entitySpeech.length) {
-        entitySpeechElement.innerHTML += entitySpeech.charAt(charIndex);
-        charIndex++;
-        setTimeout(typeEntitySpeech, 50);
-    } else {
-        setTimeout(displayAdditionalText, 1000);
-    }
-}
-
-function preloadImages(images) {
-    return Promise.all(images.map((image) => {
-        return new Promise((resolve, reject) => {
-            const img = new Image();
-            img.onload = () => resolve(img);
-            img.onerror = () => reject(new Error(`Failed to load image: ${image}`));
-            img.src = image;
-        });
-    }));
-}
-
-function drawImage(image) {
-    let x = 0;
-    let y = 0;
-    const imageWidth = image.width;
-    const imageHeight = image.height;
-    const step = 10; // Number of pixels drawn at each step
-
-    function draw() {
-        ctx.drawImage(image, x, y, step, imageHeight, x, y, step, imageHeight);
-        x += step;
-
-        if (x < imageWidth) {
-            requestAnimationFrame(draw);
-        } else {
-            x = 0;
-            y += step;
-            if (y < imageHeight) {
-                requestAnimationFrame(draw);
-            }
-        }
-    }
-
-    draw();
-}
-
-
-
-window.onload = () => {
-    typeEntitySpeech();
-    
-// //DRAWING IMAGES
-//     const images = [
-//         'image1_bw.jpg',
-//         'image2_bw.jpg',
-//         // Add more image URLs here
-//     ];
-
-//     preloadImages(images)
-//         .then((loadedImages) => {
-//             loadedImages.forEach((image) => {
-//                 drawImage(image);
-//             });
-//         })
-//         .catch((error) => {
-//             console.error(error);
-//         });
-};
+// Display text with typewriter effect after specific delays
+displayText(entitySpeechElement, textData.greeting, 1000);
+displayText(additionalTextElement, textData.additionalText, 5000);
+displayText(otherTextElement, textData.otherText, 10000);

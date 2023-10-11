@@ -2,16 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-
-.background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
     background-color: black;
-    z-index: -1;
 }
 
 .container {
@@ -22,16 +13,24 @@ body {
     color: white;
 }
 
-.entity-speech {
+.entity-speech, .additional-text, .other-text, .error-text {
     font-size: 24px;
-}
-
-.additional-text {
-    font-size: 18px;
-    opacity: 0.8;
+    position: relative;
+    margin-bottom: 20px;
+    opacity: 1;
     transition: opacity 1s ease;
 }
 
-canvas {
-    display: block;
+.images-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* You can add more styles as needed for different text elements */
+
+/* Example styles for images */
+.images-container img {
+    width: 200px; /* Set the width of your images */
+    height: auto; /* Maintain aspect ratio */
 }
