@@ -4,4 +4,3 @@ const textData = {
     'otherText': "This is another kind of text."
     // Add more text data as needed
 };
-

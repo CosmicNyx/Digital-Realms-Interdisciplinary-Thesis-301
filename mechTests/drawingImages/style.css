@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* This will make the background black */
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.text-element {
+    font-size: 20px;
+    color: #FFF; /* White text color for visibility against black background */
+    position: absolute;
+}
+
+.image-element {
+    width: 15px; /* This will control the image size. Adjust as needed. */
+    height: auto; /* This keeps the image's aspect ratio. */
+    position: absolute;
+}
