@@ -132,5 +132,22 @@ I presented these two mechanics and got some good feedback. I also got suggestio
 
 # More Feedback
 
-I had a meeting with Adam Tindale.
+I had a meeting with Adam Tindale. I shared what I had so far and discussed my plans on what to work on. The meeting was incredibly helpful and provided a lot of insight. I explained what I had so far and my ideas for what I had to work on. I recieved feedback for what to do and what to change.
+
+- Instead of keeping all the text in seperate JavaScript files, look into using JSON instead
+- Use media tags, modern web tools, audio - web using audio with text or no text
+- Find a way for the user to intake the expeirence the way its not supposed to
+- Interact as game designer and not through story with user
+- A way to go through this multiple times. The code will be the same but could be a differeent experince. Almost like a game engine
+- Have different mechanics/actions for different events in the story
+- Do proper world and character building. Why does this AI exist? Whats going on? Think of the story behind the scenes. Solidify the entity
+- What kinda story is this? Perhaps a warning parable distopic?
+- match techniques to whats happening on screen
+    - typing = clarity
+    - random typing/location of div = dysfunction
+- Player needs to feel confused, have a choice made,,, 
+- Make story beats
+- Have the user feel change, a sense of change. Mimic the feeling in website mechanics
+
+
 
