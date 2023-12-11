@@ -118,5 +118,13 @@ I shared three articles that I found interesting and shared my game insparation 
 - **Critical Societal Reflection**: This project serves as a means of initiating important societal discussions. It challenges conventional assumptions by questioning the boundaries between technology, free will, and human agency, allowing greater understanding and shifting perceptions of the digital influence in our lives.
 - **Educational and Creative Fusion**: It serves as an educational model, translating complex theories into interactive experiences. Simultaneously, it represents a creative fusion of technology, art, and philosophy, empowering users and prompting critical reflection.
 
+I got a lot of great feedback during this presentation that helped me keep on track while working. Classmates really liked the idea of ethical desicion making and the meta narrative through the AI. People commented on how the seems really personal and that I could use that while working on a narrative. The visual aspect that I painted intruiged people an I was told to look more into UX/UI so I could make sure things worked in a way that makes sense and something that fits with my vision.
 
+I was also given some feedback and questions that made me relize things that I needed to think about. One question made me take a step back
+
+*"Is there a specific societal issue you will be focusing on? Is there a particular story you wanted to share through the website? Or are you more focused on the platform building in order to dicuss these issues, and just using loreum ipsum as placeholders?"*
+
+# More Feedback
+
+I had a meeting with Adam Tindale.
 
