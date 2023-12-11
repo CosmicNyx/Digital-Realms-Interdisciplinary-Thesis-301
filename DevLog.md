@@ -88,4 +88,13 @@ Another thing that i wanted for the AI was to make it seem chaotic, I want text 
 
 **FeedBack**
 
-I presented these two mechanics and got some good feedback. 
+I presented these two mechanics and got some good feedback. I also got suggestions for what I should include or what to think more about
+
+- What does this say about presentation in websites and ui?
+- How is the sketch engaging?
+- What do u think it means? feels? How does it seem relevent to the experience?
+- Text close to mouse 
+- Look into computer glitches. see if I want to include that
+- Windows 95 as aesthethic ref
+- Have a specific num of divs on the page, then start lowering the old divs in opacity
+- Create hidden messages in code and console
