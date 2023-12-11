@@ -112,9 +112,7 @@ I looked into different thoeries in technological determinism and got a new unde
 
 *How can the convergence of technological determinism, digital sociology, and individual agency be used to create an immersive web experience that actively anticipates and responds to user actions, fostering a deeper understanding of the complex relationship between people and digital technologies?*
 
-I shared three articles that I found interesting and shared my game insparation that helped me get a vague idea of what I wanted to do, But I decided to look at it properly as a reference. I already spoke about The Beginners Guide earlier but now I explained it to my class.
-
-Another thing that I wanted to make claer to myself is that I really want to focus on determinism, not just technological dterminism, and how I wanted the website itself to be an entity. The things I decided would be the significance of my thesis are as follows:
+I shared three articles that I found interesting and shared my game insparation that helped me get a vague idea of what I wanted to do, But I decided to look at it properly as a reference. I already spoke about The Beginners Guide earlier but now I explained it to my class. Another thing that I wanted to make clear to myself is that I really want to focus on determinism, not just technological dterminism, and how I wanted the website itself to be an entity. The things I decided would be the significance of my thesis are as follows:
 
 - **Innovative Technological Exploration**: This project investigates the relationship between technological determinism, digital sociology, and human agency. It enhances interactive digital experiences by exploring this convergence, opening up options for user involvement and storytelling.
 - **Critical Societal Reflection**: This project serves as a means of initiating important societal discussions. It challenges conventional assumptions by questioning the boundaries between technology, free will, and human agency, allowing greater understanding and shifting perceptions of the digital influence in our lives.
