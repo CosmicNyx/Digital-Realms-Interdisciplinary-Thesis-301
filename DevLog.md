@@ -35,7 +35,9 @@ However, I realized that instead of trying to make a web experience based on sol
 *How can the principles of technological determinism and insights from digital sociology be leveraged to develop an immersive web experience that anticipates and responds to user actions?*
 
 I started to properly reference the game that made me come up with this web experience idea
+
 #
+
 ***The Beginners Guide by Davey Wreden***
 
 This is an environmental narrative walking simulator game on paper, however, the meta-narrative and the immersiveness in this game meant a lot to me. The character Davey acts as the narrator, showing you different games created by his friend Coda. he leads you through environments and sometimes breaks the game to let you pass through to the next stage. It feels like Davey is speaking to the player. I mean he is but it felt so life-like. It's hard to describe how I felt during the one-and-a-half-hour experience but I know it changed the way I saw game development and what it means to create things for yourself and no one else. It's a story I plan to go through again.
@@ -100,6 +102,23 @@ I presented these two mechanics and got some good feedback. I also got suggestio
 - Windows 95 as aesthethic ref
 - Have a specific num of divs on the page, then start lowering the old divs in opacity
 - Create hidden messages in code and console
+
+
+# More Research
+
+I looked into different thoeries in technological determinism and got a new understanding of it. For the Proof of Concept presentation, I shared my research rather than an update on my web exp.
+
+**Thesis Question reprised again**
+
+*How can the convergence of technological determinism, digital sociology, and individual agency be used to create an immersive web experience that actively anticipates and responds to user actions, fostering a deeper understanding of the complex relationship between people and digital technologies?*
+
+I shared three articles that I found interesting and shared my game insparation that helped me get a vague idea of what I wanted to do, But I decided to look at it properly as a reference. I already spoke about The Beginners Guide earlier but now I explained it to my class.
+
+Another thing that I wanted to make claer to myself is that I really want to focus on determinism, not just technological dterminism, and how I wanted the website itself to be an entity. The things I decided would be the significance of my thesis are as follows:
+
+- **Innovative Technological Exploration**: This project investigates the relationship between technological determinism, digital sociology, and human agency. It enhances interactive digital experiences by exploring this convergence, opening up options for user involvement and storytelling.
+- **Critical Societal Reflection**: This project serves as a means of initiating important societal discussions. It challenges conventional assumptions by questioning the boundaries between technology, free will, and human agency, allowing greater understanding and shifting perceptions of the digital influence in our lives.
+- **Educational and Creative Fusion**: It serves as an educational model, translating complex theories into interactive experiences. Simultaneously, it represents a creative fusion of technology, art, and philosophy, empowering users and prompting critical reflection.
 
 
 
