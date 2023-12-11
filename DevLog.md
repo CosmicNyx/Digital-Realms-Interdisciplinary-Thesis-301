@@ -1,4 +1,4 @@
-The first thing that came to mind for what to do for a thesis was to create it using JavaScript. I thought about focusing on technological determinism, and I went from there.
+The first thing that came to mind for what to do for a thesis was to create it using JavaScript to make a web experience. I thought about focusing on technological determinism, and I went from there.
 
 I will be sharing my ideas and process while working on my thesis, including my thought process and the challenges that I faced.
 
