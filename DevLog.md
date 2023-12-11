@@ -44,6 +44,30 @@ This is an environmental narrative walking simulator game on paper, however, the
 
 This game is what I had in the back of my mind when I was thinking about my thesis, but I tried to focus on just the educational part to where I lost track of what I wanted to do. I did enjoy researching technological determinism but I had to keep that out of my mind when thinking about a general outline of the experience.
 
+
+# More Research
+
+I looked into different thoeries in technological determinism and got a new understanding of it. For the Proof of Concept presentation, I shared my research rather than an update on my web exp.
+
+**Thesis Question reprised again**
+
+*How can the convergence of technological determinism, digital sociology, and individual agency be used to create an immersive web experience that actively anticipates and responds to user actions, fostering a deeper understanding of the complex relationship between people and digital technologies?*
+
+I shared three articles that I found interesting and shared my game insparation that helped me get a vague idea of what I wanted to do, But I decided to look at it properly as a reference. I already spoke about The Beginners Guide earlier but now I explained it to my class. Another thing that I wanted to make clear to myself is that I really want to focus on determinism, not just technological dterminism, and how I wanted the website itself to be an entity. The things I decided would be the significance of my thesis are as follows:
+
+- **Innovative Technological Exploration**: This project investigates the relationship between technological determinism, digital sociology, and human agency. It enhances interactive digital experiences by exploring this convergence, opening up options for user involvement and storytelling.
+- **Critical Societal Reflection**: This project serves as a means of initiating important societal discussions. It challenges conventional assumptions by questioning the boundaries between technology, free will, and human agency, allowing greater understanding and shifting perceptions of the digital influence in our lives.
+- **Educational and Creative Fusion**: It serves as an educational model, translating complex theories into interactive experiences. Simultaneously, it represents a creative fusion of technology, art, and philosophy, empowering users and prompting critical reflection.
+
+I got a lot of great feedback during this presentation that helped me keep on track while working. Classmates really liked the idea of ethical desicion making and the meta narrative through the AI. People commented on how the seems really personal and that I could use that while working on a narrative. The visual aspect that I painted intruiged people an I was told to look more into UX/UI so I could make sure things worked in a way that makes sense and something that fits with my vision.
+
+I was also given some feedback and questions that made me relize things that I needed to think about. One question made me take a step back
+
+> *"Is there a specific societal issue you will be focusing on? Is there a particular story you wanted to share through the website? Or are you more focused on the platform building in order to dicuss these issues, and just using loreum ipsum as placeholders?"*
+
+
+
+
 # Mechanics testing
 
 I made two mechanics that I want to include in the web exp (what imma call it from now). I made a typewriter function for divs that are called in JavaScript, however these divs were already written down in HTML. The one main thing im trying to focus on in this program is effeciency and have it at clean as possible, meaning I want the html to be as minimal as possible. I dont want to have to note down every single div for every text that I want in a specific location. For right now this works though.
@@ -104,25 +128,7 @@ I presented these two mechanics and got some good feedback. I also got suggestio
 - Create hidden messages in code and console
 
 
-# More Research
 
-I looked into different thoeries in technological determinism and got a new understanding of it. For the Proof of Concept presentation, I shared my research rather than an update on my web exp.
-
-**Thesis Question reprised again**
-
-*How can the convergence of technological determinism, digital sociology, and individual agency be used to create an immersive web experience that actively anticipates and responds to user actions, fostering a deeper understanding of the complex relationship between people and digital technologies?*
-
-I shared three articles that I found interesting and shared my game insparation that helped me get a vague idea of what I wanted to do, But I decided to look at it properly as a reference. I already spoke about The Beginners Guide earlier but now I explained it to my class. Another thing that I wanted to make clear to myself is that I really want to focus on determinism, not just technological dterminism, and how I wanted the website itself to be an entity. The things I decided would be the significance of my thesis are as follows:
-
-- **Innovative Technological Exploration**: This project investigates the relationship between technological determinism, digital sociology, and human agency. It enhances interactive digital experiences by exploring this convergence, opening up options for user involvement and storytelling.
-- **Critical Societal Reflection**: This project serves as a means of initiating important societal discussions. It challenges conventional assumptions by questioning the boundaries between technology, free will, and human agency, allowing greater understanding and shifting perceptions of the digital influence in our lives.
-- **Educational and Creative Fusion**: It serves as an educational model, translating complex theories into interactive experiences. Simultaneously, it represents a creative fusion of technology, art, and philosophy, empowering users and prompting critical reflection.
-
-I got a lot of great feedback during this presentation that helped me keep on track while working. Classmates really liked the idea of ethical desicion making and the meta narrative through the AI. People commented on how the seems really personal and that I could use that while working on a narrative. The visual aspect that I painted intruiged people an I was told to look more into UX/UI so I could make sure things worked in a way that makes sense and something that fits with my vision.
-
-I was also given some feedback and questions that made me relize things that I needed to think about. One question made me take a step back
-
-> *"Is there a specific societal issue you will be focusing on? Is there a particular story you wanted to share through the website? Or are you more focused on the platform building in order to dicuss these issues, and just using loreum ipsum as placeholders?"*
 
 # More Feedback
 
