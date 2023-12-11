@@ -84,6 +84,8 @@ I want multiple divs to apear on screen when the "AI" is talking. Some in a rand
 
 Another thing that i wanted for the AI was to make it seem chaotic, I want text to pile up on screen to make it seem messy, along with the windows on thepage that the user wont be able to delete. I made it so that every time a new div apears on screen, all the previuos dics on screen will lower on opacity. This was so the newer text would still be readable. I made two functions where when th emouse in moved and clicked, divs will apear on screen. The location of all the divs are at random which was easy to implement, however I could'nt find a way to make the divs appear in a specific spot. I noted down that i could try listing the location along with the text in an array. I will test that out later
 
+![image](https://github.com/CosmicNyx/Digital-Realms-Interdisciplinary-Thesis-301/assets/54959623/ada5bc16-9fb0-4b2c-a977-ad90a19596cb)
+
 #
 
 **FeedBack**
@@ -98,3 +100,6 @@ I presented these two mechanics and got some good feedback. I also got suggestio
 - Windows 95 as aesthethic ref
 - Have a specific num of divs on the page, then start lowering the old divs in opacity
 - Create hidden messages in code and console
+
+
+
