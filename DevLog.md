@@ -122,7 +122,7 @@ I got a lot of great feedback during this presentation that helped me keep on tr
 
 I was also given some feedback and questions that made me relize things that I needed to think about. One question made me take a step back
 
-*"Is there a specific societal issue you will be focusing on? Is there a particular story you wanted to share through the website? Or are you more focused on the platform building in order to dicuss these issues, and just using loreum ipsum as placeholders?"*
+> *"Is there a specific societal issue you will be focusing on? Is there a particular story you wanted to share through the website? Or are you more focused on the platform building in order to dicuss these issues, and just using loreum ipsum as placeholders?"*
 
 # More Feedback
 
