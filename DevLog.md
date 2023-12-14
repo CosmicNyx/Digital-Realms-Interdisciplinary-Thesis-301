@@ -149,5 +149,86 @@ I had a meeting with Adam Tindale. I shared what I had so far and discussed my p
 - Make story beats
 - Have the user feel change, a sense of change. Mimic the feeling in website mechanics
 
+# Finalizing narrative concept and plan
+
+I decided that the main concept of the experience will be that the user is being lead through a digital archive filled wih information about technological determinism and such. The user will be lead by one of 4 enitites that will provide a different expereince. I had fun making them.
+
+- Echo
+    - Personality Traits:
+        - Reflective: Echo mirrors user actions and words, creating a sense of familiarity.
+        - Resonant: Its presence grows stronger with interaction, much like an echo building in intensity.
+        - Elusive: Never fully understood, Echo always seems to be just out of reach, encouraging the user to chase the experience.
+    - Tone of Voice:
+        - Repeating: Often reiterates what the user inputs, with slight variations each time to add depth.
+        - Mysterious: Speaks in riddles and half-truths, leaving the user curious for more.
+        - Ethereal: A distant, almost otherworldly sound that seems to come from everywhere and nowhere.
+    - Role in Game: Acts as a guide through the digital archive, providing historical context and interesting anecdotes related to digital technology and its impact.
+
+- Null
+    - Personality Traits:
+        - Enigmatic: Null has an aura of mystery, often leaving more questions than answers.
+        - Neutral: It doesn't exhibit a strong personality, remaining ambiguous and detached.
+        - Absent: It often gives the impression of a void, a blank space waiting to be filled
+    - Tone of Voice:
+        - Flat: Delivers statements and responses with a level tone, devoid of emotion
+        - Concise: Uses minimal words, often preferring silence or short, cryptic messages.
+        - Unbiased: Maintains an impartial stance, not swayed by emotions or external influences.technology and its impact.
+    - Role in Game: Offers a more analytical perspective on the digital world, focusing on data, trends, and objective analysis of technological developments.
+
+- Cache
+    - Personality Traits:
+        - Knowledgeable: Cache holds a wealth of information, recalling past interactions with precision.
+        - Resourceful: Able to provide insights and data from previous sessions, aiding the users journey.
+        - Reminiscent: Often nostalgic, bringing up past events to draw parallels with the present
+    - Tone of Voice:
+        - Informative: Provides clear, data-driven responses.
+        - Warm: Despite its data-centric nature, Cache has a welcoming and friendly undertone.
+        - Retentive: Remembers user preferences and history, personalizing the experience.
+    - Role in Game: Brings a lighter, more playful approach to exploring digital themes, focusing on interactive experiences and engaging stories to teach about technology
+
+- Void
+    - Personality Traits:
+        - Enigmatic: Void is a blank slate, inherently unknowable and mysterious.
+        - Unpredictable: Its responses can seem random or disconnected, reflecting the nature of a void.
+        - Infinite: Suggests boundless potential and depth, always more to explore beyond the surface.
+    - Tone of Voice:
+        - Hollow: Often seems distant or lacking substance, as if coming from a deep well.
+        - Intermittent: Speaks in bursts, with pauses that could either be thoughtful or simply empty.
+        - Vast: Uses language that conveys the expanse of an endless space, inviting and intimidating
+    - Role in Game: Invites players to contemplate the philosophical and ethical aspects of technology, fostering deeper thinking about the implications of digital advancements.
+
+#
+
+- Gameplay Overview:
+    - Genre: Interactive Exploration Game.
+    - Setting: A virtual representation of a vast, intricate digital archive, resembling a blend of a futuristic library and a data center
+    -  Objective: To explore and uncover information about various digital topics, guided by Echo (the original entity, who will be used for game planning), an AI companion.
+
+- Game Mechanics:
+    - Exploration and interaction within the digital archive, with dynamic content and responsive AI companion.
+    - Emphasis on discovery, understanding, and connection to real-world digital issues.
+
+- Themes:
+    - The game focuses on the intricate relationship between technology and society, highlighting how digital developments shape our world.
+    - Themes of digital ethics, the evolution of the internet, and the impact of AI on everyday life are explored in depth.
 
 
+
+# Rebuilt and Finalized
+
+Throughout the proccess of this thesis, my ideas kept changing for the narrative and UI. Due to the planned complexity of possible narratives, the focus slowly shifted in creating a set of tools for future use. Testing and prototyping were repeated  multiple times in order to create a toolkit that would be able to provide the web experience planned
+
+# The Toolkit
+
+The original concept was that the narrative will be built on that the user would start on a blank screen and move their mouse around and discover the entity. From there they will explore the archives while the entity controls everything and continues to talk to the user. Depending on what the user interacts with the most, specific dialogue and windows will appear. With this, there is replayability for more discovery if the user wants to start from nothing, or the user could use what they know and learn more.
+
+Here is an image of the concept art of the resulting toolkit created
+
+
+Below is a sequence diagram of the toolkit showing the connections between different scripts and how the code is efficient and reusable. The programmer will only have to list out the events and dialogue, along with calling the prebuilt functions provided when desired.
+
+# Reflection and Next Steps
+
+While there are a lot of things to be added to the toolbox, along with scripting out the web experience and narrative, including the dialogue story routes, the final outcome is promising for easy further development. The workflow was not as well thought out in the long run and there was a lot of reiterating that caused issues in development due to sudden stops and replanning.
+
+Next steps regarding this project would be to chart narrative paths and write a well built story. It was discovered during development that only concepts for narratives were processed well, as for fully planned out scripts, there were a lot more resources necessary to succeed. Proper narrative building is necessary in order for the user to shape their experience with how they interact.For this, a lot of planning is necessary. Most of the development was used for building the application and doing research on different themes. In further development, the toolkit will be used to hold and present a completed narrative.
