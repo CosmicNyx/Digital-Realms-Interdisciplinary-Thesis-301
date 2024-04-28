@@ -4,7 +4,7 @@ Welcome to the repository for the Digital Realms Interdisciplinary Thesis. This 
 
 ## Repository Structure
 
-- **`essay.pdf`:** Contains the foundational essay that outlines the theoretical background of this project.
+- **`Digital Realms Intersections of Technological Determinism, Digital Sociology, and User Agency.pdf`:** Contains the foundational essay that outlines the theoretical background of this project.
 - **`devLog.md`:** A detailed development log documenting the thought processes, challenges, and iterations encountered throughout the development of the thesis.
 - **`toolkit/`:** Includes a collection of scripts and tools developed for the project, designed for reusability and further development.
 
