@@ -1,10 +1,3 @@
-<<<<<<< Updated upstream
-## ScenarioManagement
-
-The `ScenarioManagement` folder contains a collection of JSON files and JavaScript scripts that are essential for handling various narrative scenarios in an interactive application. This setup enables dynamic content delivery tailored to user interactions.
-
-=======
-<<<<<<< HEAD
 # Digital Realms Interdisciplinary Thesis
 
 Welcome to the repository for the Digital Realms Interdisciplinary Thesis. This project delves into the integration of technological determinism and digital sociology to craft an immersive web experience that actively responds to and anticipates user actions. The aim is to foster a deeper understanding of the complex relationship between technology and human behavior.
@@ -30,6 +23,17 @@ To get started with this project:
 
 The `toolkit/` directory contains a variety of interactive mechanics initially planned for the final output of the project "A Love Message". These tools are in the prototype stage and may contain bugs, intended mainly for testing and demonstration purposes.
 
+### Toolkit Contents Index
+
+Navigate quickly to the detailed descriptions of each toolkit component:
+
+- [Drawing Images](#drawingimages)
+- [Interactive Narrative Engine](#interactivenarrativeengine)
+- [Dynamic Text Display](#dynamictextdisplay)
+- [Dynamic UIManager](#dynamicuimanager)
+- [Typewriter Text Effects](#typewritertexteffects)
+- [Scenario Management](#scenariomanagement)
+
 ### Folder Descriptions
 
 #### `drawingImages/`
@@ -53,7 +57,7 @@ To integrate this script:
 3. Include this script in your HTML to enable dynamic image placement on user clicks.
 
 This tool is particularly useful for interactive art installations, dynamic galleries, or any project requiring a playful, engaging visual element.
-*
+
 #### `InteractiveNarrativeEngine/`
 
 The `InteractiveNarrativeEngine` folder contains scripts that collectively handle the dynamic presentation of narrative content based on user interactions. This engine is designed to manage scenes, handle mouse movements, and display text with interactive effects, enhancing the immersive experience of the web platform.
@@ -79,7 +83,7 @@ To integrate the `InteractiveNarrativeEngine` into your project:
 3. Link the scripts from this folder in your HTML files where the narrative engine is needed.
 
 This toolkit is particularly useful for developers looking to create interactive storytelling experiences, educational content, or any web-based application requiring dynamic text interactions and scene management.
-*
+
 #### `DynamicTextDisplay/`
 
 The `DynamicTextDisplay` folder contains scripts that manage the dynamic display and interaction of text elements based on user mouse movements and clicks. These scripts enhance the interactivity of the web experience by responding in real-time to user actions.
@@ -110,7 +114,7 @@ This toolkit is particularly useful for projects requiring enhanced user engagem
 
 - **On Mouse Move:** "I see you moving your mouse! How can I assist you?" or "Your mouse is on the move. Anything specific you're looking for?"
 - **On Click:** "A click, an action! How can I help you with this?" or "Mouse click detected! Let me know what you need."
-*
+
 #### `DynamicUIManager/`
 
 The `DynamicUIManager` folder contains scripts essential for creating a dynamic user interface that responds to mouse movements, manages multiple display elements, and handles interactive window boxes. This suite of tools is ideal for web applications requiring highly interactive elements and real-time user engagement.
@@ -143,7 +147,7 @@ This toolkit is particularly suited for interactive educational platforms, compl
 
 - **Mouse Movement Interaction:** Initiates text typing when the mouse has moved a certain distance, introducing users to interactive elements.
 - **Dynamic Text and Window Management:** Creates and manages multiple text divs and interactive WinBoxes based on user actions, enhancing the user experience by providing information and interactive elements responsively.
-*
+
 #### `TypewriterTextEffects/`
 
 The `TypewriterTextEffects` folder contains scripts that manage the display of text elements with a typewriter effect, allowing for dynamic and engaging text animations. These scripts are particularly useful for creating interactive experiences where text appears incrementally to capture the user's attention.
@@ -175,13 +179,12 @@ This toolkit is ideal for projects requiring a narrative element where text need
 - **Initial Greeting:** Displays a greeting message with a typewriter effect at a designated location on the page, after a brief delay, setting the stage for further interactions.
 - **Additional Information:** Sequentially displays more detailed text, increasing the depth of information presented as the user engages with the content.
 - **Dynamic Positioning:** Each piece of text can appear at different locations on the screen, enhancing the design and user focus on new elements as they appear.
-*
-## ScenarioManagement
 
-The `ScenarioManagement` folder contains a collection of JSON files and JavaScript scripts that are essential for handling various narrative scenarios in an interactive application. This setup enables dynamic content delivery tailored to user interactions.
+#### `ScenarioManagement/`
 
->>>>>>> Stashed changes
-### Overview of Contents
+The `ScenarioManagement` folder is a work-in-progress (WIP) collection of JSON files and a JavaScript script, designed to handle various narrative scenarios in an interactive application. This setup allows for dynamic content delivery based on user interactions.
+
+##### Overview of Contents
 
 - **`intro.json`:** Contains the initial dialogue or prompts presented to the user, setting the stage for further interaction.
   - Example Text: "Oh, hello! Do you know where we are?"
@@ -192,34 +195,31 @@ The `ScenarioManagement` folder contains a collection of JSON files and JavaScri
 - **`noScenario.json`:** Manages the content for a negative response from the user, directing the flow of interaction accordingly.
   - Example Text: "You chose 'No'. This is the 'No' scenario."
 
-- **`script.js`:** Contains the logic for loading and displaying the scenario texts based on user interactions, implementing interactive features like conditional navigation and dynamic text effects.
+- **`script.js`:** (Not directly accessible) Presumably contains the logic for loading and displaying the scenario texts based on user interactions, possibly implementing interactive features like conditional navigation and dynamic text effects.
 
-- **`textData.js`:** Contains additional predefined text data used across various parts of the application to support the dynamic text display functionality.
+- **`textData.js`:** (Not directly accessible) Likely contains additional predefined text data used across various parts of the application, supporting the dynamic text display functionality.
 
-### Purpose and Usage
+##### Purpose and Usage
 
-The primary purpose of this folder is to organize and streamline the management of different interactive scenarios within the application. It offers a clear and straightforward method to update narrative content without altering the core application logic, making it ideal for projects that require flexibility in content presentation and narrative branching.
+The primary purpose of this folder is to organize and streamline the management of different interactive scenarios within the application. It provides a clear and easy way to update narrative content without altering the core application logic, making it ideal for projects that require flexibility in content presentation and narrative branching.
 
-### Current Status and Future Plans
+##### Current Status and Future Plans
 
-As a work-in-progress, the `ScenarioManagement` folder is expected to undergo several updates, including:
+As a work-in-progress, future updates may include:
 
 - Enhancements to the scenario handling logic to support more complex user decisions and interactions.
 - Expansion of the scenario files to encompass a wider range of responses and outcomes.
 - Integration of additional multimedia elements to enrich the user experience.
-- Optimization and refactoring of the JavaScript logic to improve performance and maintainability.
+- Further optimization and refactoring of the JavaScript logic to improve performance and maintainability.
 
-### Integration Tips
+##### Integration Tips
 
-To integrate the `ScenarioManagement` toolkit into your project, follow these steps:
+To integrate the `ScenarioManagement` toolkit into your project:
 1. Ensure each JSON file is correctly linked within your project's main JavaScript files.
 2. Utilize the scenario data to conditionally render text and manage flow based on user inputs.
-3. Regularly test different scenarios to ensure that transitions and text displays are functioning as expected.
+3. Test different scenarios to ensure that transitions and text displays are functioning as expected.
 
-This toolkit is particularly suited for interactive storytelling applications, educational tools, or any web-based platform where user choices significantly influence subsequent content and outcomes.
-<<<<<<< Updated upstream
-=======
-dictate subsequent content and outcomes.
+This setup is particularly suited for interactive storytelling applications, educational tools, or any web-based platform where user choices dictate subsequent content and outcomes.
 
 #### Application in Small Designation Project
 
@@ -236,46 +236,3 @@ A few of these mechanics were later implemented in a small designation project, 
 Future updates will focus on resolving existing issues, refining functionality, and expanding the toolkit based on user feedback and ongoing research in digital interactions.
 
 
-=======
-## ScenarioManagement
-
-The `ScenarioManagement` folder contains a collection of JSON files and JavaScript scripts that are essential for handling various narrative scenarios in an interactive application. This setup enables dynamic content delivery tailored to user interactions.
-
-### Overview of Contents
-
-- **`intro.json`:** Contains the initial dialogue or prompts presented to the user, setting the stage for further interaction.
-  - Example Text: "Oh, hello! Do you know where we are?"
-
-- **`yesScenario.json`:** Manages the content displayed when the user responds affirmatively to a prompt.
-  - Example Text: "You chose 'Yes'. This is the 'Yes' scenario."
-
-- **`noScenario.json`:** Manages the content for a negative response from the user, directing the flow of interaction accordingly.
-  - Example Text: "You chose 'No'. This is the 'No' scenario."
-
-- **`script.js`:** Contains the logic for loading and displaying the scenario texts based on user interactions, implementing interactive features like conditional navigation and dynamic text effects.
-
-- **`textData.js`:** Contains additional predefined text data used across various parts of the application to support the dynamic text display functionality.
-
-### Purpose and Usage
-
-The primary purpose of this folder is to organize and streamline the management of different interactive scenarios within the application. It offers a clear and straightforward method to update narrative content without altering the core application logic, making it ideal for projects that require flexibility in content presentation and narrative branching.
-
-### Current Status and Future Plans
-
-As a work-in-progress, the `ScenarioManagement` folder is expected to undergo several updates, including:
-
-- Enhancements to the scenario handling logic to support more complex user decisions and interactions.
-- Expansion of the scenario files to encompass a wider range of responses and outcomes.
-- Integration of additional multimedia elements to enrich the user experience.
-- Optimization and refactoring of the JavaScript logic to improve performance and maintainability.
-
-### Integration Tips
-
-To integrate the `ScenarioManagement` toolkit into your project, follow these steps:
-1. Ensure each JSON file is correctly linked within your project's main JavaScript files.
-2. Utilize the scenario data to conditionally render text and manage flow based on user inputs.
-3. Regularly test different scenarios to ensure that transitions and text displays are functioning as expected.
-
-This toolkit is particularly suited for interactive storytelling applications, educational tools, or any web-based platform where user choices significantly influence subsequent content and outcomes.
->>>>>>> d65fcac3297978052285de29aada3e387825bfb2
->>>>>>> Stashed changes
