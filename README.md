@@ -223,7 +223,7 @@ This setup is particularly suited for interactive storytelling applications, edu
 
 #### Application in Small Designation Project
 
-A few of these mechanics were later implemented in a small designation project, allowing for further refinement and demonstrating their utility in different contexts. The project can be found in the Designathon project [A Love Message](https://github.com/CosmicNyx/A-Love-Message)
+A few of these mechanics were later implemented in a small designation project, allowing for further refinement and demonstrating their utility in different contexts. The project can be found in the repository [A Love Message](https://github.com/CosmicNyx/A-Love-Message)
 
 
 ##### Known Issues
