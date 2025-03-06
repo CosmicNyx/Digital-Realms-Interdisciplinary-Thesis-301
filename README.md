@@ -21,7 +21,7 @@ To get started with this project:
 
 ## Toolkit Overview
 
-The `toolkit/` directory contains a variety of interactive mechanics initially planned for the final output of the project "A Love Message". These tools are in the prototype stage and may contain bugs, intended mainly for testing and demonstration purposes.
+The `toolkit/` directory contains a variety of interactive mechanics tested for different forms of interactivity. These tools are in the prototype stage and may contain bugs, intended mainly for testing and demonstration purposes.
 
 ### Toolkit Contents Index
 
